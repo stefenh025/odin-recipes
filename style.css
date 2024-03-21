@@ -1,0 +1,26 @@
+.link{
+    font-size: 20px;
+    /* Tahoma font doesn't work */
+    font-family: Geneva, Verdana, sans-serif;
+    color: red;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+.link.lasagna::after{
+    font-size: 30px;
+    /* ::after + content and white-space:pre creates a breakline in css */
+    content:"\a";
+    white-space: pre;
+}
+
+.link.cookies{
+    font-size: 15px;
+}
+
+.link.steak::before{
+    font-size: 30px;
+    content:"\a";
+    white-space: pre;
+}
