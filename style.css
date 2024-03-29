@@ -2,25 +2,40 @@
     font-size: 20px;
     /* Tahoma font doesn't work */
     font-family: Geneva, Verdana, sans-serif;
-    color: red;
     font-weight: bold;
+    background-color: lightblue;
+    border: 3px solid black;
+    padding: 20px;
+}
+body a{
+    display:block;
+    font-size: 20px;
+    margin-top: 8px;
+}
+body {
+    background-color: white;
 }
 h1 {
     text-align: center;
+    background-color: lightblue;
+    padding:30px;
+    margin-bottom: 8px;
+    border: 3px solid black;
 }
+/*
 .link.lasagna::after{
     font-size: 30px;
-    /* ::after + content and white-space:pre creates a breakline in css */
+    /* ::after + content and white-space:pre creates a breakline in css 
     content:"\a";
     white-space: pre;
-}
-
+}*/
+/* 
 .link.cookies{
     font-size: 15px;
-}
+} */
 
-.link.steak::before{
+/* .link.steak::before{
     font-size: 30px;
     content:"\a";
     white-space: pre;
-}
+} */
